@@ -1,4 +1,4 @@
-.learning-option-container {
+.learning-options-container {
     display: flex;
     align-items: flex-start;
     flex-wrap: wrap;
@@ -10,4 +10,5 @@
     background: transparent;
     border: 1px solid green;
     margin: 3px;
+    color: aliceblue;
 }

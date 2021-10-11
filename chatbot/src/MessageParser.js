@@ -1,16 +1,17 @@
-//MessageParser starter code
-
 class MessageParser {
-    constructor(actionProvider, state) {
+    constructor(actionProvider) {
         this.actionProvider = actionProvider;
-        this.state = state;
     }
 
     parse(message) {
-        const lowerCaseMessage = message.toLowerCase()
+        const lowerCaseMessage = message.toLowerCase();
 
         if (lowerCaseMessage.includes("hello")){
-            this.actionProvider.greet()
+            this.actionProdvider.greet();
+        }
+
+        if (lowerCaseMessage.includess("javascript")) {
+            this.actionProvider.handleJavascriptList()
         }
     }
 }
